@@ -295,7 +295,7 @@ function App() {
                 <span className="text-2xl font-bold">Green Energy</span>
               </div>
               <p className="text-gray-400">
-                Providing clean, renewable energy solutions for homes and businesses since 2010.
+                Providing clean, renewable energy solutions for homes and businesses.
               </p>
             </div>
 
