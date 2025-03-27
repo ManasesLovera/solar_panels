@@ -68,7 +68,7 @@ function Contact() {
                     </svg>
                     <div>
                       <h3 className="text-lg font-bold text-gray-800">Address</h3>
-                      <p className="text-gray-600">123 Solar Street, Sunshine City, SC 12345</p>
+                      <p className="text-gray-600">277 Amboy ave Woodbridge nj</p>
                     </div>
                   </div>
 
