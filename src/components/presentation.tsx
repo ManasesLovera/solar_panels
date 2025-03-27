@@ -1,6 +1,6 @@
 function Presentation() {
     return (
-        <section id="home" className="bg-gradient-to-b from-green-50 to-white pb-20 pt-30">
+        <section id="home" className="bg-gradient-to-b from-green-50 to-white pb-20 pt-25">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
