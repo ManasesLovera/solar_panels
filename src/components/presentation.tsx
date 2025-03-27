@@ -10,10 +10,10 @@ function Presentation() {
                 the environment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                <a href="#contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 text-center">
                   See if you qualify!
                 </a>
-                <a href="#benefits" className="border border-green-600 text-green-600 hover:bg-green-50 font-bold py-3 px-6 rounded-lg transition duration-300">
+                <a href="#benefits" className="border border-green-600 text-green-600 hover:bg-green-50 font-bold py-3 px-6 rounded-lg transition duration-300 text-center">
                   Learn More
                 </a>
               </div>
