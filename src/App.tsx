@@ -169,9 +169,9 @@ function App() {
                   <span>10-year warranty included</span>
                 </li>
               </ul>
-              <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+              <a href="https://www.tesla.com/powerwall" target="_blank" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </div>
