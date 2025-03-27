@@ -41,7 +41,7 @@ function Contact() {
                     </svg>
                     <div>
                       <h3 className="text-lg font-bold text-gray-800">Email</h3>
-                      <p className="text-gray-600">info@greenenergy.com</p>
+                      <p className="text-gray-600">gogreenenergy@consultant.com</p>
                     </div>
                   </div>
 
