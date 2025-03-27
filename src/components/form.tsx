@@ -2,7 +2,7 @@ function Form() {
     return (
         <div className="w-full md:w-1/2 bg-white rounded-lg shadow-md overflow-hidden">
               <div className="p-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-6">Fill up your application and get a free consultation.</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-6">Fill up your application and get a free consultation</h3>
                 <form action="https://formspree.io/f/meoazyyn" method="POST" className="space-y-4">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>

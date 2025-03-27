@@ -93,7 +93,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <img
-                src="https://images.unsplash.com/photo-1593941707882-a56bbc8df44c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="/tesla.jpg"
                 alt="Tesla Powerwall Battery"
                 className="rounded-lg shadow-xl"
               />
@@ -267,9 +267,9 @@ function App() {
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Take the first step towards energy independence and a greener future.
           </p>
-          <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300 text-lg">
-            Get Your Free Quote Today
-          </button>
+          <a href="#contact" className="bg-white text-green-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300 text-lg">
+            See if you qualify!
+          </a>
         </div>
       </section>
 

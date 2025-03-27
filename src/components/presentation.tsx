@@ -1,6 +1,6 @@
 function Presentation() {
     return (
-        <section id="home" className="bg-gradient-to-b from-green-50 to-white py-20">
+        <section id="home" className="bg-gradient-to-b from-green-50 to-white pb-20 pt-30">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
@@ -10,12 +10,12 @@ function Presentation() {
                 the environment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
-                  Get a Free Quote
-                </button>
-                <button className="border border-green-600 text-green-600 hover:bg-green-50 font-bold py-3 px-6 rounded-lg transition duration-300">
+                <a href="#contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                  See if you qualify!
+                </a>
+                <a href="#benefits" className="border border-green-600 text-green-600 hover:bg-green-50 font-bold py-3 px-6 rounded-lg transition duration-300">
                   Learn More
-                </button>
+                </a>
               </div>
             </div>
             <div className="md:w-1/2">
