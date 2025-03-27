@@ -88,9 +88,9 @@ function Form() {
 
                   <button
                     type="submit"
-                    className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition duration-300"
+                    className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 cursor-pointer"
                   >
-                    Submit Form
+                    Submit
                   </button>
                 </form>
             </div>
