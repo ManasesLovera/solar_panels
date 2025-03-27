@@ -23,9 +23,6 @@ function Header() {
                     <a href="#home" className="hover:underline">
                     Home
                     </a>
-                    <a href="#products" className="hover:underline">
-                    Products
-                    </a>
                     <a href="#benefits" className="hover:underline">
                     Benefits
                     </a>
