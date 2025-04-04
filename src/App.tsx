@@ -2,6 +2,7 @@ import Contact from "./components/contact"
 import Form from "./components/form"
 import Header from "./components/header"
 import Presentation from "./components/presentation"
+import MediaGallery from "./sections/mediaGallery"
 
 function App() {
 
@@ -246,7 +247,7 @@ function App() {
         </div>
       </section>
 
-      
+      <MediaGallery />
 
       <section id="contact" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
