@@ -68,7 +68,7 @@ function Contact() {
                     </svg>
                     <div>
                       <h3 className="text-lg font-bold text-gray-800">Address</h3>
-                      <p className="text-gray-600">277 Amboy ave Woodbridge nj</p>
+                      <p className="text-gray-600">277 Amboy ave Woodbridge nj 07095</p>
                     </div>
                   </div>
 
