@@ -1,11 +1,10 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useRef } from "react"
 import type { MediaItemProps } from "../types"
 
 export default function MediaGallery() {
   const videoRef = useRef<HTMLVideoElement>(null)
-  const [isIntersecting, setIsIntersecting] = useState(false)
 
   const mediaItems: MediaItemProps[] = [
     {
@@ -51,33 +50,6 @@ export default function MediaGallery() {
       height: 200,
     },
   ]
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsIntersecting(entry.isIntersecting)
-      },
-      { threshold: 0.1 },
-    )
-
-    if (videoRef.current) {
-      observer.observe(videoRef.current)
-    }
-
-    return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current)
-      }
-    }
-  }, [])
-
-  useEffect(() => {
-    if (isIntersecting && videoRef.current) {
-      videoRef.current.play().catch((error) => {
-        console.error("Video play failed:", error)
-      })
-    }
-  }, [isIntersecting])
 
   return (
     <section id="media" className="py-16 bg-gray-50">
