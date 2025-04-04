@@ -10,21 +10,7 @@ function App() {
   return (
     <>
       <Header />
-
       <Presentation />
-
-      <section id="contact" className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Contact Us</h2>
-          <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto">
-            {/* Contact Information */}
-            <Contact />
-
-            {/* Contact Form */}
-            <Form />
-            </div>
-        </div>
-      </section>
 
       <section id="benefits" className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -262,6 +248,19 @@ function App() {
       </section>
 
       <MediaGallery />
+
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Contact Us</h2>
+          <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto">
+            {/* Contact Information */}
+            <Contact />
+
+            {/* Contact Form */}
+            <Form />
+            </div>
+        </div>
+      </section>
 
       <section className="py-12 bg-green-600 text-white">
         <div className="container mx-auto px-4 text-center">
