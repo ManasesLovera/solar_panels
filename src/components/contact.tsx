@@ -20,7 +20,7 @@ function Contact() {
                     </svg>
                     <div>
                       <h3 className="text-lg font-bold text-gray-800">Phone</h3>
-                      <p className="text-gray-600">877-354-7131</p>
+                      <p className="text-gray-600">732-860-9112</p>
                     </div>
                   </div>
 
