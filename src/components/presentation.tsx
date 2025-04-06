@@ -6,7 +6,7 @@ function Presentation() {
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Harness the Power of the Sun</h1>
               <p className="text-xl text-gray-600 mb-8">
-                Green Energy provides high-quality solar panel solutions for homes at no cost. Save money and help
+                Green Energy provides high-quality solar panel solutions for your home at no cost. Save money and help
                 the environment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
